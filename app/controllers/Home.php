@@ -5,10 +5,12 @@ namespace app\controllers;
 class Home{
 
     function __construct(){
-       echo "Contruct Home"; 
+    //    echo "Contruct Home"; 
     }
 
     public function index(){
-        require PATH_ROOT.'/app/views/home/index.php';
+        $titre = "Accueil";
+        $page = PATH_ROOT.'/app/views/home/index.php';
+        require PATH_ROOT.'/app/views/base.php';
     }
 }
