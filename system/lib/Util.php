@@ -1,5 +1,7 @@
 <?php 
 
+namespace system\lib;
+
 class Util{
 
     /**
